@@ -1,0 +1,358 @@
+@media only screen and (min-width:200px) and (max-width: 575px) {
+
+    /* ! Header Section Start */
+    .mid-header {
+        padding: 10px 0px;
+    }
+
+    .header-left {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 120px;
+    }
+
+    .header-left>.fa-bars {
+        display: block;
+        font-size: 20px;
+    }
+
+    .header-left>ul {
+        display: none;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    /* ! Header Section End */
+    /* ! Hero Section Start */
+    .mid-hero--section {
+        padding: 0px 15px;
+        margin-bottom: 40px;
+    }
+
+    .mid-hero--section h1 {
+        padding: 15px 0px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .mid-hero--section h2 {
+        padding: 10px 0px;
+        font-size: 16px;
+    }
+
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-items--content .meta-text {
+        font-size: 16px;
+    }
+
+    .hero-items--content>h2 {
+        margin: 0;
+        font-weight: bold;
+        line-height: 24px;
+    }
+
+    .hero-items--content>p {
+        display: none;
+    }
+
+    .hero-items--content>.date {
+        display: block;
+        font-size: 12px;
+    }
+
+    .hero-right--items {
+        flex-direction: column-reverse;
+    }
+
+    .hero-right--items>.right-image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .hero-right--items>.hero-items--content {
+        width: 100%;
+        height: 100%;
+    }
+
+    .hero-items--content>h3 {
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 24px;
+        margin: 0;
+        padding: 10px 0px;
+    }
+
+    /* ! Hero Section End */
+    /* ! Reality Labs Section Start */
+    .main-reality--labs {
+        flex-direction: column;
+    }
+
+    .main-reality--labs>.reality-labs--content {
+        margin-left: 20px;
+        padding: 40px 0px 10px 0px;
+    }
+
+    .reality-labs--content>h2 {
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        line-height: 24px;
+    }
+
+    .reality-labs--content>.meta-text {
+        font-size: 16px;
+    }
+
+    .reality-labs--content>p {
+        display: none;
+    }
+
+    .reality-labs--content>.date {
+        display: block;
+        font-size: 12px;
+    }
+
+    .main-reality--labs>.reality-labs--image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .reality-labs--image>img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* ! Reality Labs Section End */
+    /* ! Recent News Section Start */
+    .mid-recent--news>.news-items {
+        display: none;
+    }
+
+    .mid-recent--news>.news-items:first-child {
+        display: block;
+        padding-left: 20px;
+    }
+
+    .mid-recent--news>.news-items:first-child>ul>li>a {
+        display: none;
+    }
+
+    /* ! Recent News Section End */
+    /* ! Press Links Section Start */
+    .main-press--links {
+        padding: 30px 0px;
+    }
+
+    .main-press--links>.mid-press--links {
+        flex-direction: column;
+        align-items: start;
+        padding-left: 20px;
+    }
+
+    .main-press--links>.mid-press--links>.press-links--items {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    /* ! Press Links Section End */
+    /* ! Footer Section Start */
+    .mid-footer {
+        padding-bottom: 20px;
+    }
+
+    .mid-footer>.footer-container>.mobile-footer {
+        display: block;
+    }
+
+    .mid-footer>.footer-container>.footer-items .ul-group {
+        /* display: none; */
+        max-width: 1420px;
+        display: block;
+        align-items: center;
+
+    }
+
+    .mobile-footer>.brands {
+        padding-left: 20px;
+    }
+
+    .mobile-footer>.brands>img {
+        width: 120px;
+    }
+
+    .brands>ul>li {
+        font-size: 30px;
+        margin-right: 20px;
+    }
+
+    .foot-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding-left: 20px;
+    }
+
+    .foot-bottom>ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foot-bottom>.language {
+        margin-top: 50px;
+    }
+
+    /* ! Footer Section End */
+}
+
+@media only screen and (min-width:576px) and (max-width:1350px) {
+
+    /* .mid-header{
+            display: none;
+        } */
+    /* ! Header Section Start */
+    .mid-header {
+        display: block;
+    }
+
+    .header-left {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 55%;
+    }
+
+    .header-left>.fa-bars {
+        display: block;
+        font-size: 30px;
+    }
+
+    .header-left>img {
+        width: 100px;
+    }
+
+    .header-left>ul {
+        display: none;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    /* ! Header Section End */
+    /* ! Hero Section Start */
+    .mid-hero--section {
+        max-width: 800px;
+        padding: 0px 20px;
+        margin-bottom: 100px;
+    }
+
+    .mid-hero--section>h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .mid-hero--section>h2 {
+        font-size: 14px;
+        letter-spacing: 4px;
+    }
+
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-items--content>h2 {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+
+    .hero-items--content>.date {
+        margin-bottom: 30px;
+    }
+
+    .hero-right--items>.right-image {
+        width: 80%;
+        height: 100%;
+    }
+
+    .hero-right--items>.hero-items--content {
+        width: 100%;
+        height: 100%;
+    }
+
+    .hero-items--content>h3 {
+        font-size: 18px;
+        margin: 0;
+        line-height: 24px;
+        padding-top: 15px;
+    }
+
+    /* ! Hero Section End */
+    /* ! Reality Labs Section Start */
+    .reality-labs--content>h2 {
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        line-height: 24px;
+    }
+
+    .reality-labs--content>.meta-text {
+        font-size: 18px;
+    }
+
+    .reality-labs--image>img {
+        height: 350px;
+    }
+
+    /* ! Reality Labs Section End */
+    /* ! Recent News Section Start */
+    .mid-recent--news {
+        padding: 40px 0px;
+        padding-left: 30px;
+    }
+
+    /* ! Recent News Section End */
+    /* ! Press Links Section Start */
+    .main-press--links {
+        padding: 40px 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-items {
+        width: 100%;
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+
+    .brands>ul {
+        flex-wrap: wrap;
+    }
+
+    .foot-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .foot-bottom>ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .foot-bottom .language {
+        margin-top: 20px;
+    }
+}
